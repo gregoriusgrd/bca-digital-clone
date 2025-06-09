@@ -1,10 +1,16 @@
 "use client";
 
+import Navbar from "@/components/navbar";
 import Image from "next/image";
+
 
 export default function HeroSection() {
   return (
     <section className="h-[750px] bg-[#3BB8C3]">
+
+      <nav>
+        <Navbar />
+      </nav>
 
       {/* Left side - Text */}
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 items-center h-full">
