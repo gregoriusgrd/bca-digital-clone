@@ -13,7 +13,7 @@ export default function HeroSection() {
       </nav>
 
       {/* Left side - Text */}
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 items-center h-full">
+      <div className="container mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-2 items-center h-full">
         <div className="content">
           <h1 className="text-5xl font-bold leading-tight">
             Ada
@@ -30,7 +30,7 @@ export default function HeroSection() {
         </div>
 
         {/* Right side - Image */}
-        <div className="relative w-full h-screen">
+        <div className="relative w-full h-full">
           <Image
             src="/home/header-home.png"
             alt="Bank image"
