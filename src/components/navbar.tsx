@@ -1,56 +1,60 @@
-"use client"
+"use client";
 
-import Image from "next/image"
+import Image from "next/image";
 
 export default function Navbar() {
-    return (
-        <nav className="flex flex-shrink-0 justify-between items-center px-12 pt-10">
-            <div>
-                <Image
-                src="/navbar/logo-white-lg.svg"
-                alt="BCA Digital Logo"
-                width={200}
-                height={100}
-                className=""
-                 />
-            </div>
+  return (
+    <section className="py-10">
+      <div className="max-w-7xl mx-auto px-16">
+        <nav className="flex justify-between items-center">
+          {/* Logo */}
+          <a href="*">
+            <Image
+              src="/navbar/logo-white-lg.svg"
+              alt="BCA Digital Logo"
+              width={180}
+              height={80}
+              className=""
+            />
+          </a>
 
-            <div>
-                <ul className="flex gap-10">
-                    <li>
-                        <a href="#" className="">
-                            Profil
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" className="">
-                            Tata Kelola
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" className="">
-                            Laporan
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" className="">
-                            Karir
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" className="">
-                            Rilis Media
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" className="">
-                            Kontak
-                        </a>
-                    </li>
-                </ul>
-            </div>
+          {/* Nav Links */}
+          <ul className="hidden md:flex gap-1 text-white text-sm">
+            <li>
+              <a href="#" className="hover:bg-[#1DB5C2] px-4 py-4">
+                <span>Profil</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:bg-[#1DB5C2] px-4 py-4">
+                <span>Tata Kelola</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:bg-[#1DB5C2] px-4 py-4">
+                <span>Laporan</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:bg-[#1DB5C2] px-4 py-4">
+                <span>Karir</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:bg-[#1DB5C2] px-4 py-4">
+                <span>Rilis Media</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:bg-[#1DB5C2] px-4 py-4">
+                <span>Kontak</span>
+              </a>
+            </li>
+          </ul>
         </nav>
-    )
+      </div>
+    </section>
+  );
 }
 
 /*

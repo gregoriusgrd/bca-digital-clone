@@ -6,14 +6,14 @@ import Image from "next/image";
 
 export default function HeroSection() {
   return (
-    <section className="h-[750px] bg-[#3BB8C3]">
+    <section className="h-[750px] bg-[#12B2C0]">
 
       <nav>
         <Navbar />
       </nav>
 
       {/* Left side - Text */}
-      <div className="container mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-2 items-center h-full">
+      <div className="container px-6 md:px-12 grid grid-cols-1 md:grid-cols-2 items-center h-full">
         <div className="content">
           <h1 className="text-5xl font-bold leading-tight">
             Ada
