@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Navbar() {
   return (
-    <section className="py-10">
+    <section className="bg-[#3BB8C3] py-10">
       <div className="max-w-7xl mx-auto px-16">
         <nav className="flex justify-between items-center">
           {/* Logo */}
