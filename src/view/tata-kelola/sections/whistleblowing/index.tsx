@@ -13,8 +13,8 @@ export default function WhistleblowingSection() {
   }, []);
 
   return (
-    <section className="max-w-[1120px] mx-auto py-[100px] bg-white text-center">
-      <div className="max-w-[930px] mx-auto px-[15px] my-[80px]">
+    <section className="max-w-[1120px] mx-auto pt-[100px] pb-[40px] bg-white text-center">
+      <div className="max-w-[930px] mx-auto px-[15px]">
         <h2
           //   data-aos="fade-up"
           className="text-4xl font-bold text-center text-[#00A6B5] mb-7"
@@ -40,38 +40,40 @@ export default function WhistleblowingSection() {
           <br />
           <br />
           Pelapor harus dapat menjelaskan sekurang-kurangnya:
-          <ul className="list-disc list-inside text-left">
-            <li>
-              <b>
-                <i>What</i>
-              </b>{" "}
-              - Apa yang terjadi
-            </li>
-            <li>
-              <b>
-                <i>Who</i>
-              </b>{" "}
-              - Pihak yang terlibat
-            </li>
-            <li>
-              <b>
-                <i>When</i>
-              </b>{" "}
-              - Waktu kejadian
-            </li>
-            <li>
-              <b>
-                <i>Where</i>
-              </b>{" "}
-              - Lokasi kejadian
-            </li>
-            <li>
-              <b>
-                <i>How</i>
-              </b>{" "}
-              - Bagaimana terjadinya
-            </li>
-          </ul>
+        </p>
+        <ul className="text-lg text-justify leading-relaxed text-[#183B56] list-disc list-inside">
+          <li>
+            <b>
+              <i>What</i>
+            </b>{" "}
+            - Apa yang terjadi
+          </li>
+          <li>
+            <b>
+              <i>Who</i>
+            </b>{" "}
+            - Pihak yang terlibat
+          </li>
+          <li>
+            <b>
+              <i>When</i>
+            </b>{" "}
+            - Waktu kejadian
+          </li>
+          <li>
+            <b>
+              <i>Where</i>
+            </b>{" "}
+            - Lokasi kejadian
+          </li>
+          <li>
+            <b>
+              <i>How</i>
+            </b>{" "}
+            - Bagaimana terjadinya
+          </li>
+        </ul>
+        <p className="text-lg text-justify leading-relaxed text-[#183B56]">
           <br />
           Kirimkan laporan WBS Anda melalui:
           <br />
