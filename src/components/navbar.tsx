@@ -22,7 +22,7 @@ export default function Navbar() {
           {/* Nav Links */}
           <ul className="hidden md:flex gap-1 text-white text-sm">
             <li>
-              <a href="#" className="hover:bg-[#1DB5C2] px-4 py-4">
+              <a href="/profil" className="hover:bg-[#1DB5C2] px-4 py-4">
                 <span>Profil</span>
               </a>
             </li>
