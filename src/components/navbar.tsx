@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Navbar() {
   return (
@@ -26,9 +27,9 @@ export default function Navbar() {
               </a>
             </li>
             <li>
-              <a href="#" className="hover:bg-[#1DB5C2] px-4 py-4">
+              <Link href="/tata-kelola" className="hover:bg-[#1DB5C2] px-4 py-4">
                 <span>Tata Kelola</span>
-              </a>
+              </Link>
             </li>
             <li>
               <a href="#" className="hover:bg-[#1DB5C2] px-4 py-4">
