@@ -1,6 +1,7 @@
 "use client";
 
 import HeroSection from "./sections/hero";
+import LeaderSection from "./sections/leader";
 import SejarahSection from "./sections/sejarah";
 import StrukturOrganisasiSection from "./sections/struktur-organisasi";
 
@@ -10,6 +11,7 @@ export default function ProfilView() {
       <HeroSection />
       <SejarahSection />
       <StrukturOrganisasiSection />
+      <LeaderSection />
     </main>
   );
 }

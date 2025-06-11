@@ -5,9 +5,6 @@ import "aos/dist/aos.css";
 
 import Image from "next/image";
 
-import { BsArrowRightCircleFill } from "react-icons/bs";
-import { BsArrowLeftCircleFill } from "react-icons/bs";
-
 import * as React from "react";
 
 import { Card, CardContent } from "@/components/ui/card";
@@ -29,10 +26,10 @@ export default function StrukturOrganisasiSection() {
   }, []);
 
   const strukturImages = [
-    "/profil/img-structure-organisasi-01.png",
-    "/profil/img-structure-organisasi-02.png",
-    "/profil/img-structure-organisasi-03.png",
-    "/profil/img-structure-organisasi-04.png",
+    "/profil/struktur-organisasi/img-structure-organisasi-01.png",
+    "/profil/struktur-organisasi/img-structure-organisasi-01.png",
+    "/profil/struktur-organisasi/img-structure-organisasi-01.png",
+    "/profil/struktur-organisasi/img-structure-organisasi-01.png",
   ];
 
   return (
