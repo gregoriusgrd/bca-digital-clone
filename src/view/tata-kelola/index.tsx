@@ -3,14 +3,14 @@
 import CampaignSection from "./sections/campaign"
 import FraudSection from "./sections/fraud"
 import HeroSection from "./sections/hero"
-import SloganSection from "./sections/slogan"
+import IntroSection from "./sections/intro"
 import WhistleblowingSection from "./sections/whistleblowing"
 
 export default function TataKelolaView () {
     return (
         <main className="bg-white">
             <HeroSection />
-            <SloganSection />
+            <IntroSection />
             <CampaignSection />
             <WhistleblowingSection />
             <FraudSection />

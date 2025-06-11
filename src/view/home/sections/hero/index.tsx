@@ -59,5 +59,5 @@ container mx-auto grid grid-cols-1 md:grid-cols-2 items-center h-full px-6
 // backup bruh
 /*
 
-
+src/view/home/sections/hero/index.tsx
 */

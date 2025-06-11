@@ -44,6 +44,6 @@ export default function TataSection() {
             className="object-contain"
             priority
           />
-
+src/view/profil/index.tsx
           container mx-auto grid grid-cols-1 md:grid-cols-2 items-center h-full px-6
 */

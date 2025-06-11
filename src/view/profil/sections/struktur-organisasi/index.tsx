@@ -8,6 +8,17 @@ import Image from "next/image";
 import { BsArrowRightCircleFill } from "react-icons/bs";
 import { BsArrowLeftCircleFill } from "react-icons/bs";
 
+import * as React from "react";
+
+import { Card, CardContent } from "@/components/ui/card";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
+
 export default function StrukturOrganisasiSection() {
   useEffect(() => {
     AOS.init({
@@ -17,6 +28,13 @@ export default function StrukturOrganisasiSection() {
     });
   }, []);
 
+  const strukturImages = [
+    "/profil/img-structure-organisasi-01.png",
+    "/profil/img-structure-organisasi-02.png",
+    "/profil/img-structure-organisasi-03.png",
+    "/profil/img-structure-organisasi-04.png",
+  ];
+
   return (
     <section id="4" className="bg-fuchsia-300 py-16 text-center">
       <div className="container mx-auto px-6">
@@ -25,6 +43,45 @@ export default function StrukturOrganisasiSection() {
         </h2>
 
         {/* Organizational Structure Image */}
+        <div>
+          <Carousel className="w-full max-w-3xl mx-auto">
+            <CarouselContent>
+              {strukturImages.map((imgSrc, index) => (
+                <CarouselItem key={index}>
+                  <div className="p-4">
+                    <Card>
+                      <CardContent className="flex items-center justify-center p-2">
+                        <Image
+                          src={imgSrc}
+                          alt={`Struktur Organisasi ${index + 1}`}
+                          width={888}
+                          height={716}
+                          className="w-full h-auto rounded-md object-contain"
+                        />
+                      </CardContent>
+                    </Card>
+                  </div>
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+            <CarouselPrevious />
+            <CarouselNext />
+          </Carousel>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+// backup
+/*
+return (
+    <section id="4" className="bg-fuchsia-300 py-16 text-center">
+      <div className="container mx-auto px-6">
+        <h2 className="text-3xl font-bold mb-6 text-white">
+          Struktur Organisasi
+        </h2>
+
         <div className="">
           <Image 
           src="/profil/img-structure-organisasi-01.png"
@@ -35,7 +92,6 @@ export default function StrukturOrganisasiSection() {
           />
         </div>
 
-        {/* Buttons */}
         <div className="flex justify-center mt-6 space-x-4">
           <button>
             <BsArrowLeftCircleFill />
@@ -47,18 +103,4 @@ export default function StrukturOrganisasiSection() {
       </div>
     </section>
   );
-}
-
-/*
-        <div className="absolute bottom-0 right-0 w-[50%] h-full z-0">
-          <Image
-            src="/home/header-home.png"
-            alt="Hero Image"
-            fill
-            className="object-contain"
-            priority
-          />
-        </div>
-
-        <BsArrowLeftCircleFill />
 */

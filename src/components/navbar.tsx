@@ -32,7 +32,7 @@ export default function Navbar() {
               </Link>
             </li>
             <li>
-              <a href="#" className="hover:bg-[#1DB5C2] px-4 py-4">
+              <a href="/laporan" className="hover:bg-[#1DB5C2] px-4 py-4">
                 <span>Laporan</span>
               </a>
             </li>

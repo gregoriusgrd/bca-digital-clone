@@ -1,6 +1,6 @@
 "use client"
 
-export default function SloganSection() {
+export default function IntroSection() {
   return (
     <section className="bg-white h-[230px] px-30 py-8">
       <div className="m-auto h-full flex flex-col justify-center items-center px-8 py-10">
