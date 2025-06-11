@@ -1,10 +1,10 @@
 "use client"
 
-import CampaignSection from "./sections/campaign"
-import FraudSection from "./sections/fraud"
-import HeroSection from "./sections/hero"
-import IntroSection from "./sections/intro"
-import WhistleblowingSection from "./sections/whistleblowing"
+import CampaignSection from "./sections/03-campaign"
+import FraudSection from "./sections/05-fraud"
+import HeroSection from "./sections/01-hero"
+import IntroSection from "./sections/02-intro"
+import WhistleblowingSection from "./sections/04-whistleblowing"
 
 export default function TataKelolaView () {
     return (
