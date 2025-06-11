@@ -18,5 +18,5 @@ export const leaders: ILeader[] = [
     title: "Direktur Kepatuhan",
     image: "/profil/leader/Profile-Nugroho_Direktur-Kepatuhan.png",
     bio: "Bapak kepatuhan BCA Digital ini rupanya sejak awal sudah jatuh hati pada dunia perbankan hingga akhirnya memutuskan untuk berkarir dan bertumbuh di BCA. Berpengalaman selama lebih dari 24 tahun di dunia legal, peraih gelar Sarjana Hukum Universitas Kristen Satya Wacana ini juga pernah menjabat sebagai Head of Legal & Head of Banking Transaction Support di PT Bank UOB Indonesia, Head of Legal & Head of Special Asset Management di PT Bank ICBC Indonesia, dan Head of Legal Division PT Bank Capital Indonesia Tbk. Menjabat sebagai Direktur Kepatuhan tak membuat Pak Nug, begitu ia biasa disapa, kehilangan waktunya untuk menjalankan hobinya, mulai dari mendengarkan musik audiophile, memainkan instrumen musik hingga menonton film-film action dan sci-fi.",
-  }
+  },
 ];

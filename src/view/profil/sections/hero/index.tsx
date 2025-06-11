@@ -14,7 +14,7 @@ export default function HeroSection() {
         {/* Text Content */}
         <div className="relative z-10 max-w-7xl mx-auto px-16 h-full grid grid-cols-1 md:grid-cols-2 items-center">
           <div className="flex flex-col gap-8 max-w-sm">
-            <h1 className="text-white text-7xl font-bold leading-tight">
+            <h1 className="font-inter text-white text-7xl font-bold leading-tight">
               Tentang BCA Digital
             </h1>
             <p className="text-white text-lg">

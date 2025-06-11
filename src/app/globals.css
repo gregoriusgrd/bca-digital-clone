@@ -1,6 +1,10 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
@@ -76,6 +80,9 @@
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
+  --font-figtree: "Figtree", sans-serif;
+  --font-inter: "Inter", sans-serif;
+  --font-monserrat: "Montserrat", sans-serif;
 }
 
 .dark {
@@ -118,5 +125,17 @@
   }
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+@layer base {
+  .font-figtree {
+    font-family: var(--font-figtree);
+  }
+}
+
+@layer base {
+  .font-inter {
+    font-family: var(--font-inter);
   }
 }
