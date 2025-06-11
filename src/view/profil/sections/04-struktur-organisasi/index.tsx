@@ -69,35 +69,3 @@ export default function StrukturOrganisasiSection() {
     </section>
   );
 }
-
-// backup
-/*
-return (
-    <section id="4" className="bg-fuchsia-300 py-16 text-center">
-      <div className="container mx-auto px-6">
-        <h2 className="text-3xl font-bold mb-6 text-white">
-          Struktur Organisasi
-        </h2>
-
-        <div className="">
-          <Image 
-          src="/profil/img-structure-organisasi-01.png"
-          alt="Struktur Organisasi BCA"
-          width={888}
-          height={716}
-          className="relative w-full h-full"
-          />
-        </div>
-
-        <div className="flex justify-center mt-6 space-x-4">
-          <button>
-            <BsArrowLeftCircleFill />
-          </button>
-          <button>
-            <BsArrowRightCircleFill />
-          </button>
-        </div>
-      </div>
-    </section>
-  );
-*/

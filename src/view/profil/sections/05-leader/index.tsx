@@ -14,7 +14,7 @@ export default function directorSection() {
   const [selectedCommissioner, setSelectedCommissioner] = useState<ICommissioners | null>(null);
 
   return (
-    <section className="py-20 px-28 bg-white">
+    <section className="container py-20 px-28 bg-white">
 
       {/* Directors */}
       <section className="container mx-auto">
