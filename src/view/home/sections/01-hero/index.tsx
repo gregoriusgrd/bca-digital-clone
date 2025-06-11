@@ -1,13 +1,10 @@
 "use client";
 
-import Navbar from "@/components/navbar";
 import Image from "next/image";
 
 export default function HeroSection() {
   return (
     <>
-      <Navbar />
-
       {/* Hero Section */}
       <section className="relative bg-[#12B2C0] h-[600px] overflow-hidden">
 
