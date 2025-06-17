@@ -1,5 +1,6 @@
 "use client";
 
+import { Link } from "lucide-react";
 import Image from "next/image";
 
 import { BsArrowRightShort } from "react-icons/bs";
@@ -24,7 +25,7 @@ export default function TataSection() {
                 <h2 className="text-4xl text-[#00A6B5]">Tata Kelola Perusahaan</h2>
                 <p className="text-[#292929]">Bagi BCA Digital, transparansi usaha, kualitas pelayanan, dan kepercayaan nasabah adalah kunci atas keberlangsungan perusahaan kami.</p>
                 <div className="flex items-center">
-                    <a href="#" className="text-black font-bold">Selengkapnya</a>
+                    <Link href="#" className="text-black font-bold">Selengkapnya</Link>
                     <BsArrowRightShort className="text-black text-2xl" />
                 </div>
               </div>
